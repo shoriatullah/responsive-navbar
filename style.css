@@ -1,0 +1,271 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+header{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(101, 192, 196);
+  position: relative;
+}
+
+.navigation {
+  height: 80px;
+  width: 100%;
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+
+/* leptop nav */
+
+.leptop-nav ul {
+  display: flex;
+}
+
+.leptop-nav li {
+  list-style: none;
+  padding: 0px 13px;
+  font-size: 1.2rem;
+}
+
+
+
+/* movile nav */
+
+.mobile-nav{
+  position: absolute;
+  top: 80px;
+  right: 10%;
+}
+
+.mobile-nav ul {
+  padding: 50px 50px 100px 50px ;
+  background-color: darkcyan;
+}
+
+.mobile-nav li{
+  padding: 8px 0px;
+  list-style: none;
+}
+
+
+
+/* button nav  */
+
+
+.button .button-one button {
+  padding: 8px 18px;
+}
+
+.button-hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+
+
+  header{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(101, 192, 196);
+    position: relative;
+  }
+  
+  .navigation {
+    height: 80px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+  }
+  
+  
+  /* leptop nav */
+  
+  .leptop-nav ul {
+    display: flex;
+    display: none;
+  }
+  
+  .leptop-nav li {
+    list-style: none;
+    padding: 0px 13px;
+    font-size: 1.2rem;
+
+  }
+  
+  
+  
+  /* movile nav */
+
+  .mobile-nav{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 100%;
+  }
+
+  .mobile-nav ul {
+    padding: 20px 0px  100px 5% ;
+    background-color: whitesmoke;
+  }
+
+  .mobile-nav li{
+    padding: 12px 0px;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+    
+  
+  /* button nav  */
+  
+  
+  .button .button-one button {
+    padding: 8px 18px;
+  }
+  
+  .button-hide {
+    display: inline-block;
+  }
+
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+
+
+
+  header{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(101, 192, 196);
+    position: relative;
+  }
+  
+  .navigation {
+    height: 80px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2%;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+  }
+  
+  
+  /* leptop nav */
+  
+  .leptop-nav ul {
+    display: none;
+  }
+  
+
+  /* movile nav */
+
+  .mobile-nav{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 100%;
+  }
+
+  .mobile-nav ul {
+    padding: 20px 0px  100px 2% ;
+    background-color: whitesmoke;
+  }
+
+  .mobile-nav li{
+    padding: 8px 0px;
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+    
+  
+  /* button nav  */
+  
+  
+  .button .button-one button {
+    padding: 8px 18px;
+  }
+  
+  .button-hide {
+    display: inline-block;
+  }
+
+  
+  
+}
